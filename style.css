@@ -1,20 +1,20 @@
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #e85d04;
+  color: #fcfcfc;
   text-align: center;
 }
 h2 {
-  color: #f48c06;
+  color: #ffffff;
 }
 ul {
-  color: #faa307;
+  color: #f7f6f5;
 }
 body {
   font-family: "Times New Roman", Times, serif;
-  background-color: #03071e;
+  background-color: #000000;
 }
 p {
-  color: #f48c06;
+  color: #ffffff;
 }
 .borda {
   text-align: center;
@@ -25,9 +25,28 @@ p {
   border: 1px solid #fdf8f8;
   padding: 1px;
   background-color: #eeeceb;
-sss
+
 }
 .sobreMim {
   text-align: center;
-  block
+  background-color: #070707;
+  }
+div {
+    border: 2px solid rgb(0, 0, 0);
 }
+.foto-lugar {
+    background-color: #000000;
+}
+.logoinsta {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+.logogit {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+  
+
+    
