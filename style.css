@@ -1,52 +1,63 @@
-h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #fcfcfc;
-  text-align: center;
-}
-h2 {
-  color: #ffffff;
-}
-ul {
-  color: #f7f6f5;
-}
 body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: #000000;
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 41, 41);
 }
-p {
-  color: #ffffff;
-}
-.borda {
-  text-align: center;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #ffffff;
-  padding: 1px;
-  background-color: #ffffff;
 
+ul {
+  display: flex;
+  flex-direction: column;
+};
+
+.principal {
+  background-image:url(alan1.jpeg);
+  padding: 1000px;
+  background-color: red;
+  color: red;
 }
-.sobreMim {
-  text-align: center;
-  background-color: #070707;
-  }
 div {
-    border: 2px solid rgb(0, 0, 0);
-}
-.foto-lugar {
-    background-color: #000000;
-}
-.logoinsta {
-    position: absolute;
-    right: 60px;
-    top: 10px;
-}
-.logogit {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
+  color: white;
+  background-image:url(alan4.jpeg);
+  padding: 10%;
+  background-size: 270px;
+  background-repeat: no-repeat;
+  border: solid red;
+  background-position: right;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
   
+  
+  
+}
 
+.sobre {
+  border: solid red;
+  background-color: black;
+  padding: 10px;
+  
+}
+
+.topo {
+  display: flex;
+  border: solid red;
+  justify-content: space-between;
+  color: white;
+  width: 50%;
+  margin: auto;
+
+}
+a {
+  color: white;
+}
+
+.baixo {
+  display: flex;
+}
+
+.links {
+  border:  solid red;
+  padding: 10px;
+}
     
