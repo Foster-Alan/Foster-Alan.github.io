@@ -20,7 +20,7 @@ div {
   padding: 10%;
   background-size: 370px;
   background-repeat: no-repeat;
-  border: solid 1px red;
+  border: solid 1px black;
   background-position: right;
   background-color: black;
   display: flex;
@@ -33,7 +33,7 @@ div {
 }
 
 .sobre {
-  border: solid 1px red;
+  border: solid 1px black;
   background-color: black;
   padding: 10px;
   display: flex;
@@ -43,7 +43,7 @@ div {
 
 .topo {
   display: flex;
-  border: solid 1px red;
+  border: solid 1px black;
   justify-content: space-between;
   color: white;
   width: 50%;
@@ -60,12 +60,15 @@ a {
 }
 
 .links {
-  border:  solid 1px red;
+  text-align: center;
+  border:  solid 1px black;
   padding: 10px;
   background-color: black;
+  margin-left: 10px;
 }
 .rodape {
-  border: solid 1px green;
+  border: solid 1px black;
   padding: 5px;
 }
+
     
